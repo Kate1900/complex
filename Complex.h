@@ -11,7 +11,7 @@ public:
 	void set(double x, double y);
 	Complex get();
 
-	//dostup k polyam:
+	//dostup k polyam :
 	double getRe() { return Re; };
 	void setRe(double re) { Re = re; };
 	double getIm() { return Im; };
