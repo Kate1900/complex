@@ -84,7 +84,7 @@ bool operator == (Complex& x, Complex& y)
 	return ((x.Re == y.Re) && (x.Im == y.Im));
 }
 
-ostream& operator << (ostream& out, Complex& y)
+ostream& operator << (ostream& out, Complex& y )
 {
 	out << y.Re << "+" << y.Im << "i";
 	return out;
